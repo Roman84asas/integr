@@ -5,8 +5,8 @@
   margin: 0 auto; }
 
 section, footer {
-  padding-left: 24px;
-  padding-right: 24px; }
+  padding-left: 20px;
+  padding-right: 20px; }
 
 .green {
   color: #B7F76D; }
@@ -18,4 +18,4 @@ section, footer {
   color: #FF7833; }
 
 body {
-  background: #F4F5F5; }
+  background: #FFFFFF; }
