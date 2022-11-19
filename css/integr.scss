@@ -169,3 +169,48 @@
         }
     }
 }
+.integr_whom {
+    background-color: $greyBackground;
+    padding: 100px 20px;
+    .wrapper {
+        .integr_whom_title {
+            font-size: 40px;
+            color: $fonts;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.2;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .integr_whom_description {
+            font-size: 20px;
+            color: $fontsLight;
+            line-height: 1.2;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .integr_whom_items {
+            @include dsp-flex;
+            @include justify-content-space-between;
+            .integr_whom_item {
+                max-width: 260px;
+                width: 100%;
+                .integr_whom_item_img {
+                    display: block;
+                    max-width: 160px;
+                    width: 100%;
+                    height: auto;
+                    border-radius: 50%;
+                    @include margin-left-right-auto;
+                    margin-bottom: 20px;
+                }
+                .integr_whom_item_span {
+                    font-size: 16px;
+                    color: $fontsLight;
+                    line-height: 1.563;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
