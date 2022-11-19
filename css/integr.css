@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 .wrapper {
-  max-width: 1200px;
+  max-width: 1170px;
   width: 100%;
   margin: 0 auto; }
 
@@ -14,8 +14,68 @@ section, footer {
 .black {
   color: #000000; }
 
-.yellow {
-  color: #FF7833; }
+.accent {
+  color: #ffb100; }
 
 body {
   background: #FFFFFF; }
+
+.integr_top {
+  background-image: url("../images/integr/bgr_top.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  min-height: 410px;
+  height: 100%;
+  border-bottom: 2px solid #f57c00;
+  position: relative; }
+  .integr_top .wrapper .integr_top_title {
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.167;
+    text-align: center;
+    -moz-transform: matrix(0.99903, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(0.99903, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(0.99903, 0, 0, 1, 0, 0); }
+  .integr_top .wrapper .integr_top_descr {
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 50px;
+    -moz-transform: matrix(0.99903, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(0.99903, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(0.99903, 0, 0, 1, 0, 0); }
+  .integr_top .wrapper .mouseWheel {
+    bottom: 40px; }
+  @media (max-width: 795px) {
+    .integr_top {
+      padding-top: 100px; }
+      .integr_top .wrapper .integr_top_title {
+        font-size: 55px; }
+      .integr_top .wrapper .integr_top_descr {
+        font-size: 28px; } }
+  @media (max-width: 645px) {
+    .integr_top {
+      padding-top: 90px; }
+      .integr_top .wrapper .integr_top_title {
+        font-size: 50px; }
+      .integr_top .wrapper .integr_top_descr {
+        font-size: 25px;
+        margin-top: 65px; } }
+  @media (max-width: 545px) {
+    .integr_top .wrapper .integr_top_title {
+      font-size: 45px; }
+    .integr_top .wrapper .integr_top_descr {
+      font-size: 20px;
+      margin-top: 75px; } }
+  @media (max-width: 460px) {
+    .integr_top .wrapper .integr_top_title {
+      font-size: 36px; }
+    .integr_top .wrapper .integr_top_descr {
+      font-size: 20px;
+      margin-top: 50px; } }

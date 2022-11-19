@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -40,7 +40,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\integr\css" />
       <recent name="C:\Users\User\Desktop\integr" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\integr\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -51,7 +55,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668771573188</updated>
-      <workItem from="1668771574255" duration="6310000" />
+      <workItem from="1668771574255" duration="6908000" />
+      <workItem from="1668839725077" duration="1939000" />
+      <workItem from="1668855796021" duration="17000" />
+      <workItem from="1668857402765" duration="1447000" />
     </task>
     <servers />
   </component>
@@ -63,10 +70,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1668772143540" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1668772406742">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1668855811424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1668772406742" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1668855811424" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1668772605266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

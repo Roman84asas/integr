@@ -1,2 +1,86 @@
 @charset "UTF-8";
 @import "Variable/_variable";
+
+.integr_top {
+    background-image: url("../images/integr/bgr_top.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    min-height: 410px;
+    height: 100%;
+    border-bottom: 2px solid #f57c00;
+    position: relative;
+    .wrapper {
+        .integr_top_title {
+            font-size: 60px;
+            color: #FFFFFF;
+            font-weight: 700;
+            margin: 0;
+            text-transform: uppercase;
+            line-height: 1.167;
+            text-align: center;
+            -moz-transform: matrix( 0.99903006789525,0,0,1,0,0);
+            -webkit-transform: matrix( 0.99903006789525,0,0,1,0,0);
+            -ms-transform: matrix( 0.99903006789525,0,0,1,0,0);
+        }
+        .integr_top_descr {
+            color: #FFFFFF;
+            font-size: 30px;
+            line-height: 1.2;
+            text-align: center;
+            margin-top: 50px;
+            -moz-transform: matrix( 0.99903006789525,0,0,1,0,0);
+            -webkit-transform: matrix( 0.99903006789525,0,0,1,0,0);
+            -ms-transform: matrix( 0.99903006789525,0,0,1,0,0);
+        }
+        .mouseWheel {
+            bottom: 40px;
+        }
+    }
+    @media (max-width: 795px) {
+        padding-top: 100px;
+        .wrapper {
+            .integr_top_title {
+                font-size: 55px;
+            }
+            .integr_top_descr {
+                font-size: 28px;
+            }
+        }
+    }
+    @media (max-width: 645px) {
+        padding-top: 90px;
+        .wrapper {
+            .integr_top_title {
+                font-size: 50px;
+            }
+            .integr_top_descr {
+                font-size: 25px;
+                margin-top: 65px;
+            }
+        }
+    }
+    @media (max-width: 545px) {
+        .wrapper {
+            .integr_top_title {
+                font-size: 45px;
+            }
+            .integr_top_descr {
+                font-size: 20px;
+                margin-top: 75px;
+            }
+        }
+    }
+    @media (max-width: 460px) {
+        .wrapper {
+            .integr_top_title {
+                font-size: 36px;
+            }
+            .integr_top_descr {
+                font-size: 20px;
+                margin-top: 50px;
+            }
+        }
+    }
+}
