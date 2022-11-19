@@ -309,15 +309,64 @@ body {
       .integr_kind .wrapper .integr_kind_items .integr_kind_item .integr_kind_item_img {
         display: block;
         max-width: 645px;
-        width: 100%;
         height: auto;
         margin-left: -75px; }
+      @media (max-width: 1865px) {
+        .integr_kind .wrapper .integr_kind_items .integr_kind_item {
+          margin-right: 10px; } }
+      @media (max-width: 1830px) {
+        .integr_kind .wrapper .integr_kind_items .integr_kind_item {
+          max-width: 500px; }
+          .integr_kind .wrapper .integr_kind_items .integr_kind_item .integr_kind_item_span {
+            max-width: 570px;
+            width: 100%;
+            font-size: 16px;
+            color: #484846;
+            font-weight: 400;
+            line-height: 1.563;
+            text-align: left;
+            margin-bottom: 30px; }
+          .integr_kind .wrapper .integr_kind_items .integr_kind_item .integr_kind_item_img {
+            max-width: 535px;
+            margin-left: -55px; } }
     .integr_kind .wrapper .integr_kind_items .integr_kind_img {
       display: block;
       max-width: 915px;
       width: 100%;
       height: auto;
       margin-right: -350px; }
+    @media (max-width: 1690px) {
+      .integr_kind .wrapper .integr_kind_items {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .integr_kind .wrapper .integr_kind_items .integr_kind_item {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 880px;
+          margin-bottom: 35px; }
+          .integr_kind .wrapper .integr_kind_items .integr_kind_item .integr_kind_item_span {
+            max-width: 880px;
+            margin-bottom: 25px; }
+          .integr_kind .wrapper .integr_kind_items .integr_kind_item .integr_kind_item_img {
+            max-width: 880px;
+            margin-left: 0; }
+        .integr_kind .wrapper .integr_kind_items .integr_kind_img {
+          max-width: 915px;
+          margin-left: auto;
+          margin-right: auto; } }
+    @media (max-width: 705px) {
+      .integr_kind .wrapper .integr_kind_items .integr_kind_item {
+        margin-bottom: 30px; }
+        .integr_kind .wrapper .integr_kind_items .integr_kind_item .integr_kind_item_span {
+          margin-bottom: 20px;
+          font-size: 15px; }
+        .integr_kind .wrapper .integr_kind_items .integr_kind_item .integr_kind_item_img {
+          width: 100%; }
+      .integr_kind .wrapper .integr_kind_items .integr_kind_img {
+        max-width: 915px;
+        margin-left: auto;
+        margin-right: auto; } }
   @media (max-width: 1200px) {
     .integr_kind .wrapper .integr_kind_title {
       font-size: 35px;

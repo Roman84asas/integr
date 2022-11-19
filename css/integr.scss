@@ -335,9 +335,28 @@
                 .integr_kind_item_img {
                     display: block;
                     max-width: 645px;
-                    width: 100%;
                     height: auto;
                     margin-left: -75px;
+                }
+                @media (max-width: 1865px) {
+                    margin-right: 10px;
+                }
+                @media (max-width: 1830px) {
+                    max-width: 500px;
+                    .integr_kind_item_span {
+                        max-width: 570px;
+                        width: 100%;
+                        font-size: 16px;
+                        color: $fontsLight;
+                        font-weight: 400;
+                        line-height: 1.563;
+                        text-align: left;
+                        margin-bottom: 30px;
+                    }
+                    .integr_kind_item_img {
+                        max-width: 535px;
+                        margin-left: -55px;
+                    }
                 }
             }
             .integr_kind_img {
@@ -346,6 +365,42 @@
                 width: 100%;
                 height: auto;
                 margin-right: -350px;
+            }
+            @media (max-width: 1690px) {
+                @include flex-direction-column;
+                .integr_kind_item {
+                    @include margin-left-right-auto;
+                    max-width: 880px;
+                    margin-bottom: 35px;
+                    .integr_kind_item_span {
+                        max-width: 880px;
+                        margin-bottom: 25px;
+                    }
+                    .integr_kind_item_img {
+                        max-width: 880px;
+                        margin-left: 0;
+                    }
+                }
+                .integr_kind_img {
+                    max-width: 915px;
+                    @include margin-left-right-auto;
+                }
+            }
+            @media (max-width: 705px) {
+                .integr_kind_item {
+                    margin-bottom: 30px;
+                    .integr_kind_item_span {
+                        margin-bottom: 20px;
+                        font-size: 15px;
+                    }
+                    .integr_kind_item_img {
+                        width: 100%;
+                    }
+                }
+                .integr_kind_img {
+                    max-width: 915px;
+                    @include margin-left-right-auto;
+                }
             }
         }
         @media (max-width: 1200px) {
