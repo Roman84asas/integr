@@ -17,6 +17,9 @@ section, footer {
 .accent {
   color: #ffb100; }
 
+.yellow {
+  color: #ffd466; }
+
 .seven_hundred {
   font-weight: 700; }
 
@@ -393,5 +396,187 @@ body {
       padding-bottom: 45px; } }
   @media (max-width: 570px) {
     .integr_kind {
+      padding-top: 70px;
+      padding-bottom: 40px; } }
+
+.integr_capabilities {
+  background-color: #f2f4f9;
+  padding: 100px 20px; }
+  .integr_capabilities .wrapper .integr_capabilities_title {
+    font-size: 40px;
+    color: #263139;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px; }
+  .integr_capabilities .wrapper .integr_capabilities_description {
+    font-size: 20px;
+    color: #484846;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 50px; }
+  .integr_capabilities .wrapper .capabilities_items_block {
+    margin-bottom: 30px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+    .integr_capabilities .wrapper .capabilities_items_block .capabilities_items {
+      max-width: 560px; }
+      .integr_capabilities .wrapper .capabilities_items_block .capabilities_items .capabilities_item {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: flex;
+        margin-bottom: 35px; }
+        .integr_capabilities .wrapper .capabilities_items_block .capabilities_items .capabilities_item .capabilities_item_img {
+          margin-top: 8px;
+          display: block;
+          max-width: 60px;
+          width: auto;
+          max-height: 60px;
+          margin-right: 30px; }
+          @media (max-width: 500px) {
+            .integr_capabilities .wrapper .capabilities_items_block .capabilities_items .capabilities_item .capabilities_item_img {
+              max-width: 50px;
+              max-height: 50px;
+              margin-right: 20px; } }
+        .integr_capabilities .wrapper .capabilities_items_block .capabilities_items .capabilities_item .capabilities_item_span {
+          max-width: 460px;
+          font-size: 16px;
+          color: #484846;
+          line-height: 1.563;
+          text-align: left; }
+          @media (max-width: 500px) {
+            .integr_capabilities .wrapper .capabilities_items_block .capabilities_items .capabilities_item .capabilities_item_span {
+              font-size: 14px; } }
+      .integr_capabilities .wrapper .capabilities_items_block .capabilities_items .capabilities_item:last-child {
+        margin-bottom: 0; }
+    .integr_capabilities .wrapper .capabilities_items_block .capabilities_items_block_img {
+      max-width: 570px;
+      width: 100%;
+      height: auto;
+      display: block; }
+    @media (max-width: 1095px) {
+      .integr_capabilities .wrapper .capabilities_items_block {
+        margin-bottom: 30px;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .integr_capabilities .wrapper .capabilities_items_block .capabilities_items {
+          order: 1;
+          margin-bottom: 30px;
+          margin-left: auto;
+          margin-right: auto; }
+        .integr_capabilities .wrapper .capabilities_items_block .capabilities_items_block_img {
+          order: 2;
+          margin-left: auto;
+          margin-right: auto; } }
+  .integr_capabilities .wrapper .capabilities_items_block:last-child {
+    margin-bottom: 70px; }
+    @media (max-width: 1100px) {
+      .integr_capabilities .wrapper .capabilities_items_block:last-child {
+        margin-bottom: 60px; } }
+  @media (max-width: 1200px) {
+    .integr_capabilities .wrapper .integr_capabilities_title {
+      font-size: 35px; }
+    .integr_capabilities .wrapper .integr_capabilities_description {
+      font-size: 19px;
+      margin-bottom: 45px; } }
+  @media (max-width: 915px) {
+    .integr_capabilities .wrapper .integr_capabilities_title {
+      font-size: 30px;
+      margin-bottom: 27px; }
+    .integr_capabilities .wrapper .integr_capabilities_description {
+      font-size: 18px; } }
+  @media (max-width: 570px) {
+    .integr_capabilities .wrapper .integr_capabilities_title {
+      font-size: 25px;
+      margin-bottom: 24px; }
+    .integr_capabilities .wrapper .integr_capabilities_description {
+      font-size: 17px;
+      margin-bottom: 40px; } }
+  .integr_capabilities .alternative_wrapper {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 25px 0;
+    background-image: url("../images/integr/bgr_shema.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 30px; }
+    @media (max-width: 1255px) {
+      .integr_capabilities .alternative_wrapper {
+        padding: 25px 20px;
+        width: auto; } }
+    .integr_capabilities .alternative_wrapper .wrapper {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: flex;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      -webkit-align-items: center;
+      align-items: center; }
+      .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities {
+        max-width: 550px; }
+        .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities .alternative_capabilities_title {
+          font-size: 30px;
+          color: #FFFFFF;
+          line-height: 1.2;
+          text-align: left;
+          margin-bottom: 15px; }
+        .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities .alternative_capabilities_description {
+          font-size: 16px;
+          color: #FFFFFF;
+          line-height: 1.563;
+          text-align: left; }
+      .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities_img {
+        max-width: 595px;
+        width: 100%;
+        height: auto;
+        display: block; }
+      @media (max-width: 1200px) {
+        .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities .alternative_capabilities_title {
+          font-size: 25px; }
+        .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities_img {
+          max-width: 490px; } }
+      @media (max-width: 955px) {
+        .integr_capabilities .alternative_wrapper .wrapper {
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column; }
+          .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities {
+            max-width: 850px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 25px; }
+            .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities .alternative_capabilities_title {
+              text-align: center;
+              font-size: 23px; }
+            .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities .alternative_capabilities_description {
+              text-align: center; }
+          .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities_img {
+            max-width: 595px;
+            margin-left: auto;
+            margin-right: auto; } }
+      @media (max-width: 575px) {
+        .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities .alternative_capabilities_title {
+          font-size: 20px; }
+        .integr_capabilities .alternative_wrapper .wrapper .alternative_capabilities .alternative_capabilities_description {
+          font-size: 14px; } }
+  @media (max-width: 915px) {
+    .integr_capabilities {
+      padding-top: 85px;
+      padding-bottom: 45px; } }
+  @media (max-width: 570px) {
+    .integr_capabilities {
       padding-top: 70px;
       padding-bottom: 40px; } }

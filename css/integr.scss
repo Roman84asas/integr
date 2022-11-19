@@ -442,3 +442,206 @@
         padding-bottom: 40px;
     }
 }
+.integr_capabilities {
+    .wrapper {
+        .integr_capabilities_title {
+            font-size: 40px;
+            color: $fonts;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.2;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .integr_capabilities_description {
+            font-size: 20px;
+            color: $fontsLight;
+            line-height: 1.2;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .capabilities_items_block {
+            margin-bottom: 30px;
+            @include dsp-flex;
+            @include align-items-center;
+            @include justify-content-space-between;
+            .capabilities_items {
+                max-width: 560px;
+                .capabilities_item {
+                    @include dsp-flex;
+                    margin-bottom: 35px;
+                    .capabilities_item_img {
+                        margin-top: 8px;
+                        display: block;
+                        max-width: 60px;
+                        width: auto;
+                        max-height: 60px;
+                        margin-right: 30px;
+                        @media (max-width: 500px) {
+                            max-width: 50px;
+                            max-height: 50px;
+                            margin-right: 20px;
+                        }
+                    }
+                    .capabilities_item_span {
+                        max-width: 460px;
+                        font-size: 16px;
+                        color: $fontsLight;
+                        line-height: 1.563;
+                        text-align: left;
+                        @media (max-width: 500px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .capabilities_item:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            .capabilities_items_block_img {
+                max-width: 570px;
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            @media (max-width: 1095px) {
+                margin-bottom: 30px;
+                @include flex-direction-column;
+                .capabilities_items {
+                    order: 1;
+                    margin-bottom: 30px;
+                    @include margin-left-right-auto;
+                }
+                .capabilities_items_block_img {
+                    order: 2;
+                    @include margin-left-right-auto;
+                }
+            }
+        }
+        .capabilities_items_block:last-child {
+            margin-bottom: 70px;
+            @media (max-width: 1100px) {
+                margin-bottom: 60px;
+            }
+        }
+        @media (max-width: 1200px) {
+            .integr_capabilities_title {
+                font-size: 35px;
+            }
+            .integr_capabilities_description {
+                font-size: 19px;
+                margin-bottom: 45px;
+            }
+        }
+        @media (max-width: 915px) {
+            .integr_capabilities_title {
+                font-size: 30px;
+                margin-bottom: 27px;
+            }
+            .integr_capabilities_description {
+                font-size: 18px;
+            }
+        }
+        @media (max-width: 570px) {
+            .integr_capabilities_title {
+                font-size: 25px;
+                margin-bottom: 24px;
+            }
+            .integr_capabilities_description {
+                font-size: 17px;
+                margin-bottom: 40px;
+            }
+        }
+    }
+    background-color: $greyBackground;
+    padding: 100px 20px;
+    .alternative_wrapper {
+        max-width: 1600px;
+        @include margin-left-right-auto;
+        width: 100%;
+        padding: 25px 0;
+        background-image: url("../images/integr/bgr_shema.jpg ");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 30px;
+        @media (max-width: 1255px) {
+            padding: 25px 20px;
+            width: auto;
+        }
+        .wrapper {
+            @include dsp-flex;
+            @include justify-content-space-between;
+            @include align-items-center;
+            .alternative_capabilities {
+                max-width: 550px;
+                .alternative_capabilities_title {
+                    font-size: 30px;
+                    color: $white;
+                    line-height: 1.2;
+                    text-align: left;
+                    margin-bottom: 15px;
+                }
+                .alternative_capabilities_description {
+                    font-size: 16px;
+                    color: $white;
+                    line-height: 1.563;
+                    text-align: left;
+                }
+            }
+            .alternative_capabilities_img {
+                max-width: 595px;
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            @media (max-width: 1200px) {
+                .alternative_capabilities {
+                    .alternative_capabilities_title {
+                        font-size: 25px;
+                    }
+                }
+                .alternative_capabilities_img {
+                    max-width: 490px;
+                }
+            }
+            @media (max-width: 955px) {
+                @include flex-direction-column;
+                .alternative_capabilities {
+                    max-width: 850px;
+                    @include margin-left-right-auto;
+                    .alternative_capabilities_title {
+                        text-align: center;
+                        font-size: 23px;
+                    }
+                    .alternative_capabilities_description {
+                        text-align: center;
+                    }
+                    margin-bottom: 25px;
+                }
+                .alternative_capabilities_img {
+                    max-width: 595px;
+                    @include margin-left-right-auto;
+                }
+            }
+            @media (max-width: 575px) {
+                .alternative_capabilities {
+                    .alternative_capabilities_title {
+                        font-size: 20px;
+                    }
+                    .alternative_capabilities_description {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 915px) {
+        padding-top: 85px;
+        padding-bottom: 45px;
+    }
+    @media (max-width: 570px) {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+}
