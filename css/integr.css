@@ -17,6 +17,9 @@ section, footer {
 .accent {
   color: #ffb100; }
 
+.seven_hundred {
+  font-weight: 700; }
+
 body {
   background: #FFFFFF; }
 
@@ -79,3 +82,84 @@ body {
     .integr_top .wrapper .integr_top_descr {
       font-size: 20px;
       margin-top: 50px; } }
+
+.integr_support {
+  background-image: url("../images/integr/Circle_01.png");
+  background-position: 10% bottom;
+  background-repeat: no-repeat;
+  background-size: auto; }
+  .integr_support .wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+    .integr_support .wrapper .integr_support_left {
+      max-width: 510px;
+      width: 100%;
+      margin-right: 15px; }
+      .integr_support .wrapper .integr_support_left .integr_support_title {
+        font-size: 20px;
+        color: #263139;
+        font-weight: 400;
+        line-height: 1.4;
+        text-align: left;
+        margin-bottom: 35px; }
+        @media (max-width: 605px) {
+          .integr_support .wrapper .integr_support_left .integr_support_title {
+            font-size: 18px;
+            margin-bottom: 25px; } }
+      .integr_support .wrapper .integr_support_left .integr_support_description {
+        position: relative;
+        font-size: 16px;
+        color: #263139;
+        font-weight: 400;
+        line-height: 1.4;
+        text-align: left;
+        padding-left: 100px; }
+        .integr_support .wrapper .integr_support_left .integr_support_description:before {
+          position: absolute;
+          content: '';
+          height: 1px;
+          width: 70px;
+          left: 0;
+          top: 10px;
+          background-color: #ff8a00; }
+        @media (max-width: 605px) {
+          .integr_support .wrapper .integr_support_left .integr_support_description {
+            font-size: 14px;
+            padding-left: 50px; }
+            .integr_support .wrapper .integr_support_left .integr_support_description:before {
+              width: 30px;
+              top: 7px; } }
+    .integr_support .wrapper .integr_support_img {
+      margin-top: 30px;
+      max-width: 570px;
+      width: 100%;
+      display: block;
+      height: auto; }
+    @media (max-width: 1120px) {
+      .integr_support .wrapper .integr_support_img {
+        max-width: 450px; } }
+    @media (max-width: 945px) {
+      .integr_support .wrapper .integr_support_img {
+        max-width: 400px; } }
+    @media (max-width: 880px) {
+      .integr_support .wrapper {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .integr_support .wrapper .integr_support_left {
+          max-width: 710px;
+          margin-top: 35px;
+          margin-right: 0;
+          margin-left: auto;
+          margin-right: auto; }
+        .integr_support .wrapper .integr_support_img {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 35px;
+          max-width: 570px; } }
