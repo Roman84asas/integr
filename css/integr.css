@@ -713,3 +713,121 @@ body {
     .integr_example {
       padding-top: 70px;
       padding-bottom: 20px; } }
+
+.integr_functions {
+  background-color: #f2f4f9;
+  padding: 100px 20px; }
+  .integr_functions .wrapper .functions_title {
+    font-size: 40px;
+    color: #263139;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px; }
+  .integr_functions .wrapper .functions_description {
+    font-size: 20px;
+    color: #484846;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 75px; }
+  .integr_functions .wrapper .functions_items {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+    .integr_functions .wrapper .functions_items .functions_item {
+      margin-bottom: 75px;
+      max-width: 570px;
+      width: 100%;
+      height: auto;
+      display: block; }
+      .integr_functions .wrapper .functions_items .functions_item .functions_item_title {
+        font-size: 16px;
+        color: #484846;
+        font-weight: bold;
+        line-height: 1.3;
+        text-align: left;
+        margin-bottom: 23px; }
+      .integr_functions .wrapper .functions_items .functions_item .functions_item_li {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: flex;
+        max-width: 570px;
+        width: 100%;
+        margin-bottom: 23px; }
+        .integr_functions .wrapper .functions_items .functions_item .functions_item_li .functions_item_li_circle {
+          margin-top: 10px;
+          width: 6px;
+          height: 6px;
+          border: 2px solid #feb40c;
+          margin-right: 30px;
+          border-radius: 100px; }
+        .integr_functions .wrapper .functions_items .functions_item .functions_item_li .functions_item_li_span {
+          font-size: 16px;
+          color: #484846;
+          line-height: 1.563;
+          text-align: left;
+          max-width: 500px;
+          width: 100%; }
+      .integr_functions .wrapper .functions_items .functions_item .functions_item_li:last-child {
+        margin-bottom: 28px; }
+      .integr_functions .wrapper .functions_items .functions_item .functions_item_block {
+        padding: 25px 28px;
+        border: 1px solid #f57c00;
+        font-size: 16px;
+        color: #484846;
+        line-height: 1.563;
+        text-align: left;
+        border-radius: 5px; }
+        .integr_functions .wrapper .functions_items .functions_item .functions_item_block a {
+          font-size: 16px;
+          color: #263139;
+          line-height: 1.563;
+          text-align: left;
+          text-decoration: underline; }
+    .integr_functions .wrapper .functions_items .functions_item:first-child {
+      margin-right: 15px; }
+    @media (max-width: 1145px) {
+      .integr_functions .wrapper .functions_items {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .integr_functions .wrapper .functions_items .functions_item {
+          order: 1;
+          margin-left: auto;
+          margin-right: auto; }
+        .integr_functions .wrapper .functions_items .functions_item:first-child {
+          order: 2;
+          margin-left: auto;
+          margin-right: auto; } }
+  @media (max-width: 1200px) {
+    .integr_functions .wrapper .functions_title {
+      font-size: 35px; }
+    .integr_functions .wrapper .functions_description {
+      font-size: 19px;
+      margin-bottom: 55px; } }
+  @media (max-width: 915px) {
+    .integr_functions .wrapper .functions_title {
+      font-size: 30px;
+      margin-bottom: 27px; }
+    .integr_functions .wrapper .functions_description {
+      font-size: 18px; } }
+  @media (max-width: 570px) {
+    .integr_functions .wrapper .functions_title {
+      font-size: 25px;
+      margin-bottom: 24px; }
+    .integr_functions .wrapper .functions_description {
+      font-size: 17px;
+      margin-bottom: 40px; } }
+  @media (max-width: 915px) {
+    .integr_functions {
+      padding-top: 85px;
+      padding-bottom: 45px; } }
+  @media (max-width: 570px) {
+    .integr_functions {
+      padding-top: 70px;
+      padding-bottom: 40px; } }
