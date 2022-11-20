@@ -63,7 +63,35 @@
             returnResultValidate(validateEmail(email), messageAlertMail);
             returnResultValidate(validPhone(phone), messageAlertPhone);
 
-            
+            var data = new FormData();
+
+            data.append( 'name', name );
+            data.append( 'phone', phone );
+            data.append( 'email', email );
+            data.append( 'action', 'home_popup' );
+            data.append( 'nonce', sendintegr.nonce );
+
+            fetch(sendintegr.url, {
+                method: "POST",
+                credentials: 'same-origin',
+                body: data
+            })
+                .then((response) => response.json())
+                .then((data) => {
+                    if (data.success) {
+                        document.querySelector('#send-form').style.display = 'none';
+                        document.querySelector('.integr_send_item_success').style.display = 'block';
+
+                        document.querySelector('#send_input_name').value = '';
+                        document.querySelector('#send_input_email').value = '';
+                        document.querySelector('#send_input_phone').value = '';
+                    } else {
+                        console.log(data);
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                });
         })
     }
 })();

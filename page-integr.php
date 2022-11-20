@@ -351,7 +351,7 @@ get_header();
                 форме, после чего мы свяжемся с вами и пройдем вместе все этапы интеграции.
             </div>
         </div>
-        <div class="integr_send_item">
+        <div class="integr_send_item" id="send-forms">
             <input type="text" class="send_input" name="name" placeholder="Имя" id="send_input_name">
             <input type="text" class="send_input" name="email" placeholder="Email" id="send_input_email">
             <input type="text" class="send_input" name="phone" placeholder="Телефон" id="send_input_phone">
