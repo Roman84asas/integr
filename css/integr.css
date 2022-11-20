@@ -1070,6 +1070,31 @@ body {
         text-align: left;
         margin-bottom: 10px;
         display: block; }
+        .integr_send .wrapper .integr_send_item .send_input::-webkit-input-placeholder {
+          font-family: "Open Sans", sans-serif;
+          font-size: 16px;
+          line-height: 1.2;
+          color: #cbcaca; }
+        .integr_send .wrapper .integr_send_item .send_input::-moz-placeholder {
+          font-family: "Open Sans", sans-serif;
+          font-size: 15px;
+          line-height: 1.2;
+          color: #cbcaca; }
+        .integr_send .wrapper .integr_send_item .send_input:-ms-input-placeholder {
+          font-family: "Open Sans", sans-serif;
+          font-size: 15px;
+          line-height: 1.2;
+          color: #cbcaca; }
+        .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill, .integr_send .wrapper .integr_send_item .send_input:focus-visible, .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill:hover, .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill:focus, .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill:focus-visible, .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill, .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill:hover, .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill:focus, .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill, .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill:hover, .integr_send .wrapper .integr_send_item .send_input:-webkit-autofill:focus {
+          border-style: solid;
+          border-width: 1px;
+          border-color: #e0e4ef;
+          border-radius: 5px;
+          background-color: white;
+          -webkit-text-fill-color: #CBCACA;
+          -webkit-box-shadow: none;
+          transition: background-color 5000s ease-in-out 0s;
+          outline: none; }
       .integr_send .wrapper .integr_send_item .send_input:last-child {
         margin-bottom: 0; }
     .integr_send .wrapper .integr_send_item_bottom {

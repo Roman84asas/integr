@@ -1193,6 +1193,45 @@
                 text-align: left;
                 margin-bottom: 10px;
                 display: block;
+                &::-webkit-input-placeholder {
+                    font-family: $openSans;
+                    font-size: 16px;
+                    line-height: 1.2;
+                    color: rgb(203, 202, 202);
+                }
+                &::-moz-placeholder {
+                    font-family: $openSans;
+                    font-size: 15px;
+                    line-height: 1.2;
+                    color: rgb(203, 202, 202);
+                }
+                &:-ms-input-placeholder {
+                    font-family: $openSans;
+                    font-size: 15px;
+                    line-height: 1.2;
+                    color: rgb(203, 202, 202);
+                }
+                &:-webkit-autofill,
+                &:focus-visible,
+                &:-webkit-autofill:hover,
+                &:-webkit-autofill:focus,
+                &:-webkit-autofill:focus-visible,
+                &:-webkit-autofill,
+                &:-webkit-autofill:hover,
+                &:-webkit-autofill:focus,
+                &:-webkit-autofill,
+                &:-webkit-autofill:hover,
+                &:-webkit-autofill:focus {
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: rgb(224, 228, 239);
+                    border-radius: 5px;
+                    background-color: rgb(255, 255, 255);
+                    -webkit-text-fill-color: #CBCACA;
+                    -webkit-box-shadow: none;
+                    transition: background-color 5000s ease-in-out 0s;
+                    outline: none;
+                }
             }
             .send_input:last-child {
                 margin-bottom: 0;
