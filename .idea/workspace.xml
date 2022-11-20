@@ -39,13 +39,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\integr\css" />
-      <recent name="C:\Users\User\Desktop\integr" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\integr\images\integr" />
       <recent name="C:\Users\User\Desktop\integr\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\integr\css" />
+      <recent name="C:\Users\User\Desktop\integr" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,6 +60,7 @@
       <workItem from="1668839725077" duration="1939000" />
       <workItem from="1668855796021" duration="17000" />
       <workItem from="1668857402765" duration="22849000" />
+      <workItem from="1668926883757" duration="10719000" />
     </task>
     <servers />
   </component>

@@ -921,6 +921,87 @@
             }
         }
     }
+    .functions_wrapper {
+        background-image: url("../images/integr/bgr_man.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 30px;
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
+        .wrapper {
+            @include dsp-flex;
+            @include align-items-center;
+            @include justify-content-space-between;
+            .integr_functions_items {
+                max-width: 525px;
+                width: 100%;
+                .integr_functions_item {
+                    font-size: 16px;
+                    color: $white;
+                    line-height: 1.563;
+                    text-align: left;
+                    margin-bottom: 25px;
+                }
+                .integr_functions_item:last-child {
+                    margin-bottom: 0;
+                }
+            }
+            .integr_functions_item_img {
+                max-width: 785px;
+                width: 100%;
+                height: auto;
+                margin-top: -45px;
+                margin-right: -215px;
+                border-bottom-right-radius: 30px;
+            }
+        }
+        @media (max-width: 1645px) {
+            background-image: url("../images/integr/sloi_two.png");
+            background-size: contain;
+            margin-top: -45px;
+            min-height: 445px;
+            .wrapper {
+                padding-top: 80px;
+                .integr_functions_item_img {
+                    display: none;
+                }
+            }
+        }
+        @media (max-width: 1460px) {
+            min-height: 400px;
+            .wrapper {
+                padding-top: 90px;
+            }
+        }
+        @media (max-width: 1460px) {
+            background-image: url("../images/integr/bgr_man.jpg");
+            background-size: cover;
+            margin-top: 0;
+            min-height: 400px;
+            @include dsp-flex;
+            @include align-items-center;
+            .wrapper {
+                padding-top: 75px;
+                padding-bottom: 75px;
+            }
+        }
+        @media (max-width: 1250px) {
+            .wrapper {
+                margin: 0 20px;
+            }
+        }
+        @media (max-width: 430px) {
+            .wrapper {
+                .integr_functions_items {
+                    .integr_functions_item {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
     @media (max-width: 915px) {
         padding-top: 85px;
         padding-bottom: 45px;
@@ -928,5 +1009,231 @@
     @media (max-width: 570px) {
         padding-top: 70px;
         padding-bottom: 40px;
+    }
+}
+.integr_time {
+    padding: 100px 20px 25px;
+    background-image: url("../images/integr/Circle_03.png");
+    background-repeat: no-repeat;
+    background-position: right -20%;
+    background-size: auto;
+    .wrapper {
+        .time_title {
+            font-size: 40px;
+            color: $fonts;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.2;
+            text-align: center;
+            margin-bottom: 110px;
+        }
+        .time_items {
+            @include dsp-flex;
+            @include justify-content-space-between;
+            .time_item {
+                background-image: url("../images/integr/puzzle.jpg");
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: contain;
+                padding: 0 30px 20px;
+                max-width: 310px;
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 75px;
+                min-height: 361px;
+                .time_item_img {
+                    max-width: 108px;
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    margin-top: -55px;
+                }
+                .time_item_title {
+                    font-size: 20px;
+                    color: rgb(38, 49, 57);
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 1.25;
+                    text-align: left;
+                    margin-bottom: 27px;
+                }
+                .time_item_description {
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    color: rgb(72, 72, 70);
+                    line-height: 1.563;
+                    text-align: left;
+                }
+                .time_item_bold {
+                    font-size: 30px;
+                    color: rgb(72, 72, 70);
+                    font-weight: bold;
+                    line-height: 0.833;
+                    text-align: left;
+                    margin-bottom: 18px;
+                }
+                .time_item_seven {
+                    font-size: 20px;
+                    color: rgb(72, 72, 70);
+                    font-weight: bold;
+                    line-height: 1.25;
+                    text-align: left;
+                }
+            }
+            .time_item:nth-child(2) {
+                background-image: url("../images/integr/Coin.jpg");
+            }
+            .time_item:nth-child(3) {
+                background-image: url("../images/integr/Gear.jpg");
+            }
+            @media (max-width: 1180px) {
+                @include flex-wrap-wrap;
+                max-width: 770px;
+                width: 100%;
+                @include margin-left-right-auto;
+            }
+            @media (max-width: 800px) {
+                max-width: 370px;
+            }
+            @media (max-width: 420px) {
+                .time_item {
+                    padding: 0 20px 20px;
+                    margin-bottom: 50px;
+                    .time_item_img {
+                        max-width: 95px;
+                        margin-top: -25px;
+                    }
+                    .time_item_title {
+                        font-size: 18px;
+                        margin-bottom: 25px;
+                    }
+                    .time_item_description {
+                        font-size: 15px;
+                        margin-bottom: 17px;
+                    }
+                    .time_item_bold {
+                        font-size: 25px;
+                        margin-bottom: 15px;
+                    }
+                    .time_item_seven {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        @media (max-width: 1200px) {
+            .time_title {
+                font-size: 35px;
+                margin-bottom: 100px;
+            }
+        }
+        @media (max-width: 915px) {
+            .time_title {
+                font-size: 30px;
+                margin-bottom: 80px;
+            }
+        }
+        @media (max-width: 570px) {
+            .time_title {
+                font-size: 25px;
+                margin-bottom: 60px;
+            }
+        }
+    }
+    @media (max-width: 915px) {
+        padding-top: 85px;
+        padding-bottom: 10px;
+    }
+    @media (max-width: 570px) {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+}
+.integr_send {
+    background-color: $greyBackground;
+    padding: 100px 20px;
+    background-image: url("../images/integr/revrait.png");
+    background-repeat: no-repeat;
+    background-position: 3% top;
+    background-size: auto;
+    .wrapper {
+        @include dsp-flex;
+        @include align-items-center;
+        @include justify-content-space-between;
+        .integr_send_item {
+            max-width: 570px;
+            width: 100%;
+            .integr_send_title {
+                font-size: 40px;
+                color: rgb(38, 49, 57);
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.2;
+                text-align: left;
+                margin-bottom: 20px;
+            }
+            .integr_send_description {
+                font-size: 16px;
+                color: rgb(72, 72, 70);
+                line-height: 1.563;
+                text-align: left;
+            }
+            .send_input {
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgb(224, 228, 239);
+                border-radius: 5px;
+                background-color: rgb(255, 255, 255);
+                max-width: 570px;
+                width: -webkit-fill-available;
+                padding: 20px 15px;
+                font-size: 16px;
+                color: rgb(203, 202, 202);
+                line-height: 1.2;
+                text-align: left;
+                margin-bottom: 10px;
+                display: block;
+            }
+            .send_input:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .integr_send_item_bottom {
+            padding-top: 30px;
+            @include dsp-flex;
+            @include align-items-center;
+            @include justify-content-space-between;
+            .integr_send_item_button {
+                cursor: pointer;
+                @include dsp-flex;
+                @include justify-content-center;
+                @include align-items-center;
+                max-width: 270px;
+                width: 100%;
+                background-color: #ff8a00;
+                font-size: 14px;
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                line-height: 1;
+                text-align: center;
+                height: 60px;
+                border-radius: 30px;
+            }
+            .integr_send_item_span {
+                max-width: 270px;
+                width: 100%;
+                font-size: 12px;
+                color: rgb(127, 136, 144);
+                line-height: 1.333;
+                text-align: left;
+                a {
+                    text-decoration: underline;
+                    font-size: 12px;
+                    color: rgb(127, 136, 144);
+                    line-height: 1.333;
+                    text-align: left;
+                }
+            }
+        }
     }
 }
