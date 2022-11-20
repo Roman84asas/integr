@@ -352,9 +352,9 @@ get_header();
             </div>
         </div>
         <div class="integr_send_item">
-            <input type="text" class="send_input" name="name" placeholder="Имя">
-            <input type="text" class="send_input" name="email" placeholder="Email">
-            <input type="text" class="send_input" name="phone" placeholder="Телефон">
+            <input type="text" class="send_input" name="name" placeholder="Имя" id="send_input_name">
+            <input type="text" class="send_input" name="email" placeholder="Email" id="send_input_email">
+            <input type="text" class="send_input" name="phone" placeholder="Телефон" id="send_input_phone">
             <div class="integr_send_item_bottom">
                 <div class="integr_send_item_button">Отправить</div>
                 <div class="integr_send_item_span">
