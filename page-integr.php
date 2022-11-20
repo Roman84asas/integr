@@ -17,7 +17,7 @@ get_header();
         <a class="mouseWheel" href="#nextBlock" rel="m_PageScroll2id"></a>
     </div>
 </section>
-<section class="integr_support" >
+<section class="integr_support" id="nextBlock">
     <div class="wrapper">
         <div class="integr_support_left">
             <div class="integr_support_title">
@@ -30,7 +30,7 @@ get_header();
                 управления пользователями.
             </div>
         </div>
-        <img src="images/integr/Img_comp.jpg" alt="" class="integr_support_img">
+        <img src="/wp-content/themes/voxlink/images/integr/Img_comp.jpg" alt="" class="integr_support_img">
     </div>
 </section>
 <section class="integr_whom">
@@ -39,25 +39,25 @@ get_header();
         <div class="integr_whom_description">Когда интеграция Asterisk с Active Directory действительно нужна?</div>
         <div class="integr_whom_items">
             <div class="integr_whom_item">
-                <img src="images/integr/Icon-1.png" alt="" class="integr_whom_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/Icon-1.png" alt="" class="integr_whom_item_img">
                 <div class="integr_whom_item_span">
                     У вас достаточно крупная компания и вы цените автоматизацию рутинных процессов.
                 </div>
             </div>
             <div class="integr_whom_item">
-                <img src="images/integr/Icon-2.png" alt="" class="integr_whom_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/Icon-2.png" alt="" class="integr_whom_item_img">
                 <div class="integr_whom_item_span">
                     Вы уже используете Active Directory и Asterisk, но не настроили их связку.
                 </div>
             </div>
             <div class="integr_whom_item">
-                <img src="images/integr/Icon-3.png" alt="" class="integr_whom_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/Icon-3.png" alt="" class="integr_whom_item_img">
                 <div class="integr_whom_item_span">
                     Вы уже пользуетесь Active Directory и планируете внедрять Asterisk, продумывая всё до мелочей.
                 </div>
             </div>
             <div class="integr_whom_item">
-                <img src="images/integr/Icon-4.png" alt="" class="integr_whom_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/Icon-4.png" alt="" class="integr_whom_item_img">
                 <div class="integr_whom_item_span">
                     У вас есть или вот-вот появится Asterisk и планируется внедрение Active Directory.
                 </div>
@@ -80,9 +80,9 @@ get_header();
                     администратор домена AD. Обязательным условием успешной интеграции является то, что для пользователей
                     должны быть прописаны внутренние номера в Active Directory.
                 </div>
-                <img src="images/integr/Img-phone.png" alt="" class="integr_kind_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/Img-phone.png" alt="" class="integr_kind_item_img">
             </div>
-            <img src="images/integr/ADvantage.jpg" alt="" class="integr_kind_img">
+            <img src="/wp-content/themes/voxlink/images/integr/ADvantage.jpg" alt="" class="integr_kind_img">
         </div>
     </div>
 </section>
@@ -159,7 +159,7 @@ get_header();
                     <span class="seven_hundred">Сроки и стоимость</span> доработок оценит менеджер, ознакомившись с полным перечнем пожеланий заказчика.
                 </div>
             </div>
-            <img src="images/integr/shema.png" alt="" class="alternative_capabilities_img">
+            <img src="/wp-content/themes/voxlink/images/integr/shema.png" alt="" class="alternative_capabilities_img">
         </div>
     </div>
 </section>
@@ -173,9 +173,9 @@ get_header();
         </div>
         <div class="example_items">
             <div class="example_item">
-                <img src="images/integr/ADvantage_01.jpg" alt="" class="example_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/ADvantage_01.jpg" alt="" class="example_item_img">
                 <div class="example_item_bottom">
-                    <img src="images/integr/Check.jpg" alt="" class="example_item_bottom_check">
+                    <img src="/wp-content/themes/voxlink/images/integr/Check.jpg" alt="" class="example_item_bottom_check">
                     <div class="example_item_bottom_content">
                         <div class="example_item_bottom_control">
                             <a href="#ADvantage_01_1" class="example_item_control active" data-anti="#ADvantage_01_2">Что сделано:</a>
@@ -193,9 +193,9 @@ get_header();
                 </div>
             </div>
             <div class="example_item">
-                <img src="images/integr/ADvantage_02.jpg" alt="" class="example_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/ADvantage_02.jpg" alt="" class="example_item_img">
                 <div class="example_item_bottom">
-                    <img src="images/integr/Check.jpg" alt="" class="example_item_bottom_check">
+                    <img src="/wp-content/themes/voxlink/images/integr/Check.jpg" alt="" class="example_item_bottom_check">
                     <div class="example_item_bottom_content">
                         <div class="example_item_bottom_control">
                             <a href="#ADvantage_02_1" class="example_item_control active" data-anti="#ADvantage_02_2">Что сделано:</a>
@@ -211,9 +211,9 @@ get_header();
                 </div>
             </div>
             <div class="example_item">
-                <img src="images/integr/ADvantage_03.jpg" alt="" class="example_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/ADvantage_03.jpg" alt="" class="example_item_img">
                 <div class="example_item_bottom">
-                    <img src="images/integr/Check.jpg" alt="" class="example_item_bottom_check">
+                    <img src="/wp-content/themes/voxlink/images/integr/Check.jpg" alt="" class="example_item_bottom_check">
                     <div class="example_item_bottom_content">
                         <div class="example_item_bottom_control">
                             <a href="#ADvantage_03_1" class="example_item_control active" data-anti="#ADvantage_03_2">Что сделано:</a>
@@ -229,9 +229,9 @@ get_header();
                 </div>
             </div>
             <div class="example_item">
-                <img src="images/integr/ADvantage_04.jpg" alt="" class="example_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/ADvantage_04.jpg" alt="" class="example_item_img">
                 <div class="example_item_bottom">
-                    <img src="images/integr/Check.jpg" alt="" class="example_item_bottom_check">
+                    <img src="/wp-content/themes/voxlink/images/integr/Check.jpg" alt="" class="example_item_bottom_check">
                     <div class="example_item_bottom_content">
                         <div class="example_item_bottom_control">
                             <a href="#ADvantage_04_1" class="example_item_control active" data-anti="#ADvantage_04_2">Что сделано:</a>
@@ -257,7 +257,7 @@ get_header();
             телефонной книги CallMetrix.
         </div>
         <div class="functions_items">
-            <img src="images/integr/asterisk_adventure_05.jpg" alt="" class="functions_item">
+            <img src="/wp-content/themes/voxlink/images/integr/asterisk_adventure_05.jpg" alt="" class="functions_item">
             <div class="functions_item">
                 <div class="functions_item_title">При её наличии интеграция позволяет:</div>
                 <div class="functions_item_li">
@@ -302,7 +302,7 @@ get_header();
                     интеграция потребует увеличения стоимости, сроков и проработки технического задания.
                 </div>
             </div>
-            <img src="images/integr/sloi.png" alt="" class="integr_functions_item_img">
+            <img src="/wp-content/themes/voxlink/images/integr/sloi.png" alt="" class="integr_functions_item_img">
         </div>
     </div>
 </section>
@@ -311,7 +311,7 @@ get_header();
         <div class="time_title">Сколько занимает времени</div>
         <div class="time_items">
             <div class="time_item">
-                <img src="images/integr/Icon_01.png" alt="" class="time_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/Icon_01.png" alt="" class="time_item_img">
                 <div class="time_item_title">Интеграция</div>
                 <div class="time_item_description">
                     Интеграция IP-АТС Asterisk с Active Directory является популярной услугой. При готовности заказчика
@@ -320,7 +320,7 @@ get_header();
                 <div class="time_item_seven">сроки интеграции составят 3-5 дней.</div>
             </div>
             <div class="time_item">
-                <img src="images/integr/Icon_2.png" alt="" class="time_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/Icon_2.png" alt="" class="time_item_img">
                 <div class="time_item_title">Стоимость</div>
                 <div class="time_item_description">
                     Стоимость базовой интеграции составляет:
@@ -332,7 +332,7 @@ get_header();
                 </div>
             </div>
             <div class="time_item">
-                <img src="images/integr/Icon_03.png" alt="" class="time_item_img">
+                <img src="/wp-content/themes/voxlink/images/integr/Icon_03.png" alt="" class="time_item_img">
                 <div class="time_item_title">Доработка</div>
                 <div class="time_item_description">
                     А вот доработки интеграции оцениваются отдельно как в плане бюджета, так и в плане сроков.
