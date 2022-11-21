@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../OSPanel/domains/polygon/wp-content/themes/polygon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -39,13 +39,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\integr\images\integr" />
-      <recent name="C:\Users\User\Desktop\integr\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\integr\css" />
       <recent name="C:\Users\User\Desktop\integr" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\integr\images\integr" />
+      <recent name="C:\Users\User\Desktop\integr\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,6 +63,7 @@
       <workItem from="1668926883757" duration="11625000" />
       <workItem from="1668958391997" duration="2388000" />
       <workItem from="1669027296925" duration="2483000" />
+      <workItem from="1669045546261" duration="2926000" />
     </task>
     <servers />
   </component>

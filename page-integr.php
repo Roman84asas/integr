@@ -12,7 +12,7 @@ get_header();
             Интеграция Asterisk с <span class="accent">Active Directory</span>
         </h1>
         <div class="integr_top_descr">
-            Как с помощью связки <span class="accent">Asterisk</span> и <span class="accent">Active Directory</span> отслеживать, контролировать и управлять абонентами IP-АТС
+            Как с помощью связки <span class="accent seven_hundred">Asterisk</span> и <span class="accent seven_hundred">Active Directory</span> отслеживать, контролировать и управлять абонентами IP-АТС
         </div>
         <a class="mouseWheel" href="#nextBlock" rel="m_PageScroll2id"></a>
     </div>
@@ -80,7 +80,16 @@ get_header();
                     администратор домена AD. Обязательным условием успешной интеграции является то, что для пользователей
                     должны быть прописаны внутренние номера в Active Directory.
                 </div>
-                <img src="/wp-content/themes/voxlink/images/integr/Img-phone.png" alt="" class="integr_kind_item_img">
+                <div class="integr_kind_item_bottom">
+                    <img src="/wp-content/themes/voxlink/images/integr/Img-phones.png" alt="" class="integr_kind_item_img">
+                    <div class="integr_kind_item_bottom_span">
+                        Что же касается требований к телефонии, то обязательным является наличие
+                        <span class="bgr_accent">Asterisk и FreePBX 13+ версий.</span> Также для IP-АТС должен быть
+                        открыт доступ к службам AD: DNS, Kerberos, LDAP.
+                    </div>
+                    <img src="/wp-content/themes/voxlink/images/integr/FreePBX.jpg" alt="" class="integr_kind_item_bottom_img">
+                </div>
+
             </div>
             <img src="/wp-content/themes/voxlink/images/integr/ADvantage.jpg" alt="" class="integr_kind_img">
         </div>
@@ -98,14 +107,14 @@ get_header();
         <div class="capabilities_items_block">
             <div class="capabilities_items">
                 <div class="capabilities_item">
-                    <img src="images/integr/Icon-5.png" alt="" class="capabilities_item_img">
+                    <img src="/wp-content/themes/voxlink/images/integr/Icon-5.png" alt="" class="capabilities_item_img">
                     <div class="capabilities_item_span">
                         создавать номера в FreePBX (в частности, можно создавать/не создавать определённый пул номеров,
                         это указывается в настройках)
                     </div>
                 </div>
                 <div class="capabilities_item">
-                    <img src="images/integr/Icon-6.png" alt="" class="capabilities_item_img">
+                    <img src="/wp-content/themes/voxlink/images/integr/Icon-6.png" alt="" class="capabilities_item_img">
                     <div class="capabilities_item_span">
                         настроить переадресацию вызова с номера в FreePBX, указать протокол подключения, контекст
                         вызова, указать кодеки, настройки NAT, ACL (номера будут добавляться в FreePBX с этими
@@ -113,34 +122,34 @@ get_header();
                     </div>
                 </div>
                 <div class="capabilities_item">
-                    <img src="images/integr/Icon-7.png" alt="" class="capabilities_item_img">
+                    <img src="/wp-content/themes/voxlink/images/integr/Icon-7.png" alt="" class="capabilities_item_img">
                     <div class="capabilities_item_span">
                         при звонке на телефон передавать имя из AD (имена из AD будут назначены номерам,
                         заведённым в FreePBX)
                     </div>
                 </div>
             </div>
-            <img src="images/integr/asterisk_adventure_06.jpg" alt="" class="capabilities_items_block_img">
+            <img src="/wp-content/themes/voxlink/images/integr/asterisk_adventure_06.jpg" alt="" class="capabilities_items_block_img">
         </div>
         <div class="capabilities_items_block">
-            <img src="images/integr/asterisk_adventure_08.jpg" alt="" class="capabilities_items_block_img">
+            <img src="/wp-content/themes/voxlink/images/integr/asterisk_adventure_08.jpg" alt="" class="capabilities_items_block_img">
             <div class="capabilities_items">
                 <div class="capabilities_item">
-                    <img src="images/integr/Icon-8.png" alt="" class="capabilities_item_img">
+                    <img src="/wp-content/themes/voxlink/images/integr/Icon-8.png" alt="" class="capabilities_item_img">
                     <div class="capabilities_item_span">
                         при исходящем с телефона вызове отображать имя набранного номера из AD (если телефон
                         поддерживает Remote-Party-ID или P-Asserted-Identity)
                     </div>
                 </div>
                 <div class="capabilities_item">
-                    <img src="images/integr/Icon-9.png" alt="" class="capabilities_item_img">
+                    <img src="/wp-content/themes/voxlink/images/integr/Icon-9.png" alt="" class="capabilities_item_img">
                     <div class="capabilities_item_span">
                         задавать ограничения на связь по принадлежности пользователей AD к определённым группам,
                         например, разрешать международные вызовы определённым пользователям
                     </div>
                 </div>
                 <div class="capabilities_item">
-                    <img src="images/integr/Icon-10.png" alt="" class="capabilities_item_img">
+                    <img src="/wp-content/themes/voxlink/images/integr/Icon-10.png" alt="" class="capabilities_item_img">
                     <div class="capabilities_item_span">
                         передавать фотографию пользователя, привязанную к его аккаунту в AD (при поддержке данной
                         возможности телефонным аппаратом)
