@@ -68,7 +68,7 @@
             data.append( 'name', name );
             data.append( 'phone', phone );
             data.append( 'email', email );
-            data.append( 'action', 'home_popup' );
+            data.append( 'action', 'send_integr' );
             data.append( 'nonce', sendintegr.nonce );
 
             fetch(sendintegr.url, {
@@ -79,7 +79,7 @@
                 .then((response) => response.json())
                 .then((data) => {
                     if (data.success) {
-                        document.querySelector('#send-form').style.display = 'none';
+                        document.querySelector('#send-forms').style.display = 'none';
                         document.querySelector('.integr_send_item_success').style.display = 'block';
 
                         document.querySelector('#send_input_name').value = '';
