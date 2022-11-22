@@ -334,7 +334,13 @@ get_header();
                 <div class="time_item_description">
                     Стоимость базовой интеграции составляет:
                 </div>
-                <div class="time_item_bold">50 000 рублей</div>
+                <div class="time_item_bold">
+                    <?php if( DOMAIN == 'kz' ) {
+                        echo vxpre_format(vxcurrencyByCountry( 50000 , false, 1)).' тенге';
+                    } else { ?>
+                        50 000 рублей
+                    <?php } ?>
+                </div>
                 <div class="time_item_description">
                     При этом финальную цену поможет определить менеджер, после согласования всех требований, деталей и
                     заданных заказчиком условий интеграции.
